@@ -13,6 +13,7 @@ library(tidyverse)
 library(tidymodels)
 library(broom)
 library(marginaleffects)
+library(easystats)
 
 x <- read_csv("https://raw.githubusercontent.com/PPBDS/bootcamp/refs/heads/master/_internal/data/resume.csv",
         show_col_types = FALSE)
