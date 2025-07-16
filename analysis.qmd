@@ -1,0 +1,18 @@
+---
+title: "Resume Experiment"
+format: html
+execute: 
+  echo: false
+---
+
+
+```{r}
+#| message: false
+
+library(tidyverse)
+library(tidymodels)
+library(broom)
+library(marginaleffects)
+
+x <- read_csv("https://raw.githubusercontent.com/PPBDS/bootcamp/refs/heads/master/_internal/data/resume.csv")
+```
