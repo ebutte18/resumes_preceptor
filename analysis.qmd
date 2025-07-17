@@ -17,7 +17,18 @@ library(easystats)
 
 x <- read_csv("https://raw.githubusercontent.com/PPBDS/bootcamp/refs/heads/master/_internal/data/resume.csv",
         show_col_types = FALSE)
+
+x
 ```
+
+```{r}
+logistic_reg() |>
+  fit(as.factor(call) ~ ethnicity + gender, data = x)
+```
+
+
+
+
 
 <!-- name indicates applicant's first name.
 
